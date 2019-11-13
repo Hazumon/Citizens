@@ -6,8 +6,7 @@ const App = props => {
     <div class="container">
       <h1>Citizens</h1>
       <SideBarMenu
-      dogs={props.animals.dogs} // pulls data from the animals variable that was passed
-                                // from the  main.js and sends it to the DogSection file with the dogs var
+      dogs={props.animals.dogs} 
       />
 
     </div>

@@ -1,20 +1,14 @@
 import React from 'react';
 import SideBar from './SideBar';
 
-const SideBarMenu = props => {
-  let dogs = props.dogs.map(dog => {
-    return(
-      <SideBar
-        key={dog.id}
-        dog={dog}
-      />
-    )
-  })
+const SideBarMenu = () => {
+
 
 
   return(
     <div>
-      {dogs}
+   <SideBar
+   />
     </div>
   )
 }

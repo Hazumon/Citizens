@@ -13,8 +13,7 @@ const DogSection = props => {
 
 
   return(
-    <div className="row">
-      <h2>Dogs</h2>
+    <div class="boxcolor">
       {dogs}
     </div>
   )

@@ -1,6 +1,6 @@
 import './stylesheets/main.scss';
+// import './stylesheets/sidebar.css';
 import 'babel-polyfill'; 
-// import '.././node_modules/babel-polyfill'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import animals from './constants/data';

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const DogTile = props => {
+const SideBar = props => {
   return(
 <div class="wrapper">
     <nav id="sidebar">
@@ -68,4 +68,4 @@ const DogTile = props => {
   )
 }
 
-export default DogTile;
+export default SideBar;

@@ -1,5 +1,5 @@
 import React from 'react';
-import DogSection from './DogSection';
+import SideBarMenu from './SideBarMenu';
 
 const App = props => {
   return(

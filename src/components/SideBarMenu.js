@@ -1,10 +1,10 @@
 import React from 'react';
-import DogTile from './DogTile';
+import SideBar from './SideBar';
 
 const DogSection = props => {
   let dogs = props.dogs.map(dog => {
     return(
-      <DogTile
+      <SideBar
         key={dog.id}
         dog={dog}
       />
@@ -19,4 +19,4 @@ const DogSection = props => {
   )
 }
 
-export default DogSection;
+export default SideBarMenu;

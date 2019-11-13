@@ -22,7 +22,20 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
-      }
+      },
+      {
+      test: /\.css$/,  
+      include: /node_modules/,  
+          use: [
+              'style-loader',
+                  {
+                    loader: 'css-loader',
+                    options: {
+                      modules: true,
+                    },
+                  },
+                ],
+ }
     ]
   },
   devtool: 'eval-source-map',

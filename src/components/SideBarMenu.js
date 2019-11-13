@@ -2,11 +2,9 @@ import React from 'react';
 import SideBar from './SideBar';
 
 const SideBarMenu = () => {
-
-
-
+  
   return(
-    <div>
+    <div class="boxborder">
    <SideBar
    />
     </div>

@@ -1,4 +1,5 @@
 import './stylesheets/main.scss';
+// import styles from './stylesheets/sidebar.css';
 // import './stylesheets/sidebar.css';
 import 'babel-polyfill'; 
 import React from 'react';

@@ -4,7 +4,7 @@ import SideBar from './SideBar';
 const SideBarMenu = () => {
   
   return(
-    <div class="boxborder">
+    <div className="sample">
    <SideBar
    />
     </div>

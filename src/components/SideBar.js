@@ -6,7 +6,7 @@ const SideBar = props => {
 <div class="wrapper">
     <nav id="sidebar">
         <div class="sidebar-header">
-            <h3>Bootstrap Sidebar</h3>
+            <h3> Sample Sidebar</h3>
         </div>
 
         <ul class="list-unstyled components">
@@ -59,7 +59,6 @@ const SideBar = props => {
 
                 <button type="button" id="sidebarCollapse" class="btn btn-info">
                     <i class="fas fa-align-left"></i>
-                    <span>Toggle Sidebar</span>
                 </button>
             </div>
         </nav>

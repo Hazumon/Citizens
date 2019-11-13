@@ -1,5 +1,11 @@
 // @import 'themeColors';
 // $theme-font:    verdana, sans-serif;
-.danger {
-    border: 1px solid black;
+
+%boxborder{
+  border: 1px solid black;  //1px solid black;
+  // padding: 10px;
+  // color: #333;
+}
+.sample {
+    @extend  %boxborder;
   }

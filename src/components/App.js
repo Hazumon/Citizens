@@ -3,13 +3,15 @@ import SideBarMenu from './SideBarMenu';
 
 const App = () => {
   return(
-    <div class="container">
-      <h1>Citizens</h1>
-      
-      <SideBarMenu
-      />
 
-    </div>
+    <div class="container-fluid">
+    <h1>Citizens</h1>
+      
+      <div>
+        <SideBarMenu />
+      </div>
+
+  </div>
   )
 }
 

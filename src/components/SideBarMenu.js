@@ -1,7 +1,7 @@
 import React from 'react';
 import SideBar from './SideBar';
 
-const DogSection = props => {
+const SideBarMenu = props => {
   let dogs = props.dogs.map(dog => {
     return(
       <SideBar
@@ -13,7 +13,7 @@ const DogSection = props => {
 
 
   return(
-    <div class="boxcolor">
+    <div>
       {dogs}
     </div>
   )

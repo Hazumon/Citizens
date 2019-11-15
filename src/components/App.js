@@ -1,14 +1,14 @@
 import React from 'react';
-import SideBarMenu from './SideBarMenu';
+import SideBar from './SideBar';
 
 const App = () => {
   return(
 
-    <div class="container-fluid">
+    <div>
     <h1>Citizens</h1>
       
       <div>
-        <SideBarMenu />
+        <SideBar />
       </div>
 
   </div>
